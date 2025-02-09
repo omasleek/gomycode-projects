@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resturant project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Osi ite pot</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-dark text-white text-center py-5" id="home">
+      <div class="container">
+        <h1>Welcome to Osi ite pot</h1>
+        <p>Treat your tummy with amazing meals served fresh</p>
+        <a href="#menu" class="btn btn-primary">Menu List</a>
+      </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section class="container my-5 menu" id="menu">
+      <h2 class="text-center">Menu Card</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://www.dashofjazz.com/wp-content/uploads/2024/03/Dash-of-Jazz-Efo-Elegusi-26.jpg"
+              class="card-img-top"
+              alt="Egusi Soup"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fufu & Egusi Soup</h5>
+              <p class="card-text">
+                This egusi is filled with fresh produce and minimally processed
+                ingredients for a hearty stew dish you can feel proud to serve
+                your family.
+              </p>
+              <p class="text-primary">$12,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://zenaskitchen.com/wp-content/uploads/2022/12/jollof-rice-1536x1536.jpg"
+              class="card-img-top"
+              alt="Jellof Rice with plantain and chicken piece"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jollof Rice with Plantain and chicken</h5>
+              <p class="card-text">
+                Jollof rice is a dish with deep roots in West African culture,
+                and it’s one that carries with it a sense of community,
+                celebration, and tradition.
+              </p>
+              <p class="text-primary">$15,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://i0.wp.com/www.yummymedley.com/wp-content/uploads/2017/09/nigerian-afang-soup-two-servings.jpg?w=750&ssl=1"
+              class="card-img-top"
+              alt="Afang soup"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Afang soup</h5>
+              <p class="card-text">
+                A meal you'll love. A delicious stew made with Afang leaves and
+                a leafy vegetable called waterleaf.
+              </p>
+              <p class="text-primary">$22,000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="container my-5 contact" id="contact">
+      <h2 class="text-center">Contact Us</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+
+   <!-- Footer -->
+<footer class="bg-dark text-white text-center py-3" >
+  <p>&copy; 2024 This site was coded by Chioma Ogbonna</p>
+  <div>
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+<a href="#"><i class="fa-brands fa-twitter"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
